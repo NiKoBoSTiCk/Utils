@@ -19,7 +19,7 @@ public class Sudoku {
 		matriceImp = new int[9][9];
 		impostazioni = new LinkedList<>();
 		soluzioni = new LinkedList<>();
-	}//costruttore default
+	}
 	
 	public Sudoku(int[][] imp) {
 		if(imp.length>81) throw new IllegalArgumentException("Impostazioni non valide.");
@@ -34,7 +34,7 @@ public class Sudoku {
 			int valore = imp[i][2];
 			imposta(riga, colonna, valore);
 		}	
-	}//costruttore
+	}
 	
 	public void imposta(int i, int j, int v) {	
 		if(!assegnabile(i, j, v)) 
