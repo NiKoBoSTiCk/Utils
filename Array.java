@@ -1,5 +1,3 @@
-package poo.util;
-
 public final class Array{
 	private Array(){} //classe di utilita'
 	
