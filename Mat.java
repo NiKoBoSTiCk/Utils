@@ -1,7 +1,5 @@
-package poo.util;
-
-public final class Mat { //classe di utilit‡
-	private Mat() {};
+public final class Mat {
+	private Mat() {}; //classe di utilit√†
 	public static double EPSLON = 1.0E-10;
 	public enum Soluzione{ITERATIVA, RISCORSIVA};
 	
